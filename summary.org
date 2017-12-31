@@ -1,4 +1,5 @@
 * List of questions on how to use github, config file
+*** Linux: .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
 *** different path specification on different machines?
 *** would it be better to use .spacemacs.d/init... 
 
