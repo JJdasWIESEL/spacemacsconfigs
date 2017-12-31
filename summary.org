@@ -1,8 +1,11 @@
 * List of questions on how to use github, config file
-*** Linux: .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
+** General: 
 *** different path specification on different machines?
 *** would it be better to use .spacemacs.d/init... 
-
+** Linux:
+*** git commit problem (emacs 24 seems to have a problem), pushing works 
+*** .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
+** Windows: 
 * Current practice
 *** .spacemacs file lies on github (DON'T FORGET TO PUSH CHANGES)
 *** "~/.spacemacs" used as symbolic link with target /repos/spacemacsconfigs/.spacemacs 
