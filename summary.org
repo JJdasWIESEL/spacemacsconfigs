@@ -1,0 +1,7 @@
+* List of questions on how to use github, config file
+*** different path specification on different machines?
+*** would it be better to use .spacemacs.d/init... 
+
+* Current practice
+*** .spacemacs file lies on github (DON'T FORGET TO PUSH CHANGES)
+*** "~/.spacemacs" used as symbolic link with target /repos/spacemacsconfigs/.spacemacs 
