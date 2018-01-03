@@ -10,6 +10,7 @@
 *** DONE different packages loading on different platforms
     CLOSED: [2018-01-03 Wed 16:31]
 *** TODO different packages loading on different system-names
+    take a look at: http://milosophical.me/blog/2016/spacemacs-01.html
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
