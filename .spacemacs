@@ -6,6 +6,51 @@
   "Configuration Layers declaration.
 You should not put any user code in this function besides modifying the variable
 values."
+  (setq
+  mjl-layers
+  '(
+    python
+    c-c++
+    ess ;; R, additionaly S and some other stuff
+    latex
+    emacs-lisp
+    markdown
+    ;;useful
+    ;;pdf-tools , loaded in linux layers only (below)
+    org
+    helm
+    auto-completion
+    better-defaults
+    git
+    games
+    (shell :variables
+           shell-default-height 30
+           shell-default-position 'bottom)
+    ;; spell-checking
+    ;; syntax-checking
+    ;; version-control
+    )
+  )
+  (setq
+   ;; Layers to be loaded on Microsoft Windows
+   mjl-windows-layers
+   '(
+     html
+     )
+   ;; Layers to be loaded on Macintosh
+   ;; Layers to be loaded on GNU/Linux
+   mjl-gnu/linux-layers
+   '(
+     pdf-tools
+     )
+   ;; Layers to be loaded on Work computers
+   ;; have a look at: http://milosophical.me/blog/2016/spacemacs-01.html
+   )
+  (cond ((eq system-type 'windows-nt)
+         (setq mjl-layers (append mjl-layers mjl-windows-layers)))
+        ((eq system-type 'gnu/linux)
+         (setq mjl-layers (append mjl-layers mjl-gnu/linux-layers)))
+        )
   (setq-default
    ;; Base distribution to use. This is a layer contained in the directory
    ;; `+distribution'. For now available distributions are `spacemacs-base'
@@ -29,39 +74,7 @@ values."
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
-   dotspacemacs-configuration-layers
-   '(
-     ;; ----------------------------------------------------------------
-     ;; Example of useful layers you may want to use right away.
-     ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-     ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
-
-     ;;Languages
-     python
-     c-c++
-     ess ;; R, additionaly S and some other stuff
-     latex
-     emacs-lisp
-     html
-     markdown
-
-     ;;useful
-     pdf-tools
-     helm
-     auto-completion
-     better-defaults
-     git
-     games
-     (org :variables
-          org-enable-github-support t)
-     (shell :variables
-             shell-default-height 30
-             shell-default-position 'bottom)
-     ;; spell-checking
-     ;; syntax-checking
-     ;; version-control
-     )
+   dotspacemacs-configuration-layers mjl-layers
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
