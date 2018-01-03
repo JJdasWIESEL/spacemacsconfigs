@@ -1,11 +1,15 @@
-* List of questions on how to use github, config file
-** General: 
-*** different path specification on different machines?
-*** would it be better to use .spacemacs.d/init... 
-** Linux:
-*** git commit problem (emacs 24 seems to have a problem), pushing works 
-*** .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
-** Windows: 
 * Current practice
 *** .spacemacs file lies on github (DON'T FORGET TO PUSH CHANGES)
 *** "~/.spacemacs" used as symbolic link with target /repos/spacemacsconfigs/.spacemacs 
+*** dotspacemacs-configuration-layers has been replaced by mjl-layers, to be able to support different layer setups for linux and windows
+* Problems 
+* Questions 
+** General: 
+*** TODO different paths for differnet machines in loading dotspacemacs 
+*** TODO different path specification on different machines?
+*** would it be better to use .spacemacs.d/init... 
+** Linux:
+*** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
+*** still???? .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
+** Windows: 
+*** pdf-tools alternative
