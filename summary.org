@@ -7,6 +7,9 @@
 ** General: 
 *** TODO different paths for differnet machines in loading dotspacemacs 
 *** TODO different path specification on different machines?
+*** DONE different packages loading on different platforms
+    CLOSED: [2018-01-03 Wed 16:31]
+*** TODO different packages loading on different system-names
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
