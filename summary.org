@@ -3,7 +3,7 @@
 *** "~/.spacemacs" used as symbolic link with target /repos/spacemacsconfigs/.spacemacs 
 *** dotspacemacs-configuration-layers has been replaced by mjl-layers, to be able to support different layer setups for linux and windows
 * Problems 
-* Questions 
+* Questions/TODO's 
 ** General: 
 *** TODO different paths for differnet machines in loading dotspacemacs 
 *** TODO different path specification on different machines?
@@ -12,4 +12,4 @@
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
 *** still???? .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
 ** Windows: 
-*** pdf-tools alternative
+*** pdf-tools alternative (sumatra: https://www.barik.net/archive/2012/07/18/154432/)
