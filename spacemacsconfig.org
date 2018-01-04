@@ -15,5 +15,6 @@
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
+*** TODO make auctex open pdf's with pdftools right away (at the moment works only with SPC m v if already open)
 ** Windows: 
 *** pdf-tools alternative (sumatra: https://www.barik.net/archive/2012/07/18/154432/)
