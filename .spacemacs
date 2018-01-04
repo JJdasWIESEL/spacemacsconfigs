@@ -323,9 +323,16 @@ values."
   (setq-default git-magit-status-fullscreen t)
   ;;latex
   (setq latex-build-command "LatexMk")
-  (setq preview-gs-command "c:/Program Files/gs/gs9.22/bin/gswin64c.exe")
-  ;;python
-  (setenv "WORKON_HOME" "c:/Users/Andreas/Anaconda3/envs")
+
+;; ----------------------------------------------------------------------
+  ;;SYSTEM DEPENDING PATHS
+;; ----------------------------------------------------------------------
+  (cond ((eq system-name 'Andreas-PC)
+         ;;python
+         (setenv "WORKON_HOME" "c:/Users/Andreas/Anaconda3/envs")
+        ;;Ghostscirpt
+         (setq preview-gs-command "c:/Program Files/gs/gs9.22/bin/gswin64c.exe"))
+        )
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
 executes.
