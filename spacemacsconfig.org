@@ -15,6 +15,5 @@
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
-*** still???? .spacemacs (symlic) can be opened by SPC f e d but not reinitialized by SPC f e R 
 ** Windows: 
 *** pdf-tools alternative (sumatra: https://www.barik.net/archive/2012/07/18/154432/)
