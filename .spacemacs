@@ -6,6 +6,9 @@
   "Configuration Layers declaration.
 You should not put any user code in this function besides modifying the variable
 values."
+  ;; ----------------------------------------------------------------------
+  ;; begin custom layers
+  ;; ----------------------------------------------------------------------
   (setq
   mjl-layers
   '(
@@ -51,6 +54,9 @@ values."
         ((eq system-type 'gnu/linux)
          (setq mjl-layers (append mjl-layers mjl-gnu/linux-layers)))
         )
+  ;; ----------------------------------------------------------------------
+  ;; END custom layers
+  ;; ----------------------------------------------------------------------
   (setq-default
    ;; Base distribution to use. This is a layer contained in the directory
    ;; `+distribution'. For now available distributions are `spacemacs-base'
