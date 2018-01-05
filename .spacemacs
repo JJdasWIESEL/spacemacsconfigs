@@ -14,7 +14,7 @@ values."
   '(
     python
     c-c++
-    ess ;; R, additionaly S and some other stuff
+    ;;ess ;; R, additionaly S and some other stuff
     latex
     emacs-lisp
     markdown
@@ -338,7 +338,7 @@ values."
          (setenv "WORKON_HOME" "c:/Users/Andreas/Anaconda3/envs")
         ;;Ghostscirpt
          (setq preview-gs-command "c:/Program Files/gs/gs9.22/bin/gswin64c.exe"))
-        ((eq system-name 'andreas-ThinkPad-W520)
+        ;;((eq system-name 'andreas-ThinkPad-W520)
          ;; DOES NOT WORK -> FIX IT: just doesn't open latex pdf files with pdf-tools
         ;;pdf-tools
          ;; Use pdf-tools to open PDF files
@@ -347,7 +347,7 @@ values."
          ;; ;; Update PDF buffers after successful LaTeX runs
          ;; (add-hook 'TeX-after-compilation-finished-functions
          ;;           #'TeX-revert-document-buffer)
-        )
+       ;; )
         )
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
