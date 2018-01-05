@@ -39,7 +39,6 @@ values."
    ;; Layers to be loaded on Microsoft Windows
    mjl-windows-layers
    '(
-     html
      )
    ;; Layers to be loaded on Macintosh
    ;; Layers to be loaded on GNU/Linux
@@ -347,7 +346,8 @@ values."
          ;;       TeX-source-correlate-start-server t)
          ;; ;; Update PDF buffers after successful LaTeX runs
          ;; (add-hook 'TeX-after-compilation-finished-functions
-         ;;           #'TeX-revert-document-buffer))
+         ;;           #'TeX-revert-document-buffer)
+        )
         )
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
