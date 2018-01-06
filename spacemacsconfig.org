@@ -5,12 +5,13 @@
 * Problems 
 * Questions/TODO's 
 ** General: 
-*** TODO different paths for differnet machines in loading dotspacemacs 
-*** TODO different path specification on different machines?
-*** TODO org-agenda files, different paths on different machines
+*** DONE different paths for differnet machines in loading dotspacemacs 
+    CLOSED: [2018-01-06 Sat 10:40]
+*** TODO org-agenda files, different paths on different machines(automatically generated, problems on "other" system)
 *** DONE different packages loading on different platforms
     CLOSED: [2018-01-03 Wed 16:31]
-*** TODO different packages loading on different system-names
+*** DONE different packages loading on different system-names
+    CLOSED: [2018-01-06 Sat 10:41]
     take a look at: http://milosophical.me/blog/2016/spacemacs-01.html
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
