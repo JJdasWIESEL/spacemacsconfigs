@@ -13,6 +13,7 @@
 *** TODO different packages loading on different system-names
     take a look at: http://milosophical.me/blog/2016/spacemacs-01.html
     ACHTUNG: check if "cond" really works or if just once set, it's remained. (WORKON_HOME)
+    use (system-name) instead of system-name for conditional expressions. 
 *** would it be better to use .spacemacs.d/init... 
 ** Linux:
 *** TODO git commit problem (emacs 24 seems to have a problem), pushing works 
