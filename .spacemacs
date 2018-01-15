@@ -328,7 +328,9 @@ values."
   (setq-default git-magit-status-fullscreen t)
   ;;latex
   (setq latex-build-command "LatexMk")
-
+  ;;python
+  (setq python-shell-interpreter "ipython")
+  (setenv "WORKON_HOME" "c:/Users/JumpStart/Anaconda3/envs")
   ;; ----------------------------------------------------------------------
   ;; Testing at work python envs (set WORKON_HOME)
   ;; ----------------------------------------------------------------------
