@@ -3,6 +3,8 @@
 *** "~/.spacemacs" used as symbolic link with target /repos/spacemacsconfigs/.spacemacs 
 *** dotspacemacs-configuration-layers has been replaced by mjl-layers, to be able to support different layer setups for linux and windows
 * Problems 
+*** PYTHON with ANACONDA ENVS, at work, autocomplete does not work anymore when using an virtenv
+    have a look here: https://github.com/proofit404/anaconda-mode/issues/265
 * Questions/TODO's 
 ** General: 
 *** DONE different paths for differnet machines in loading dotspacemacs 
