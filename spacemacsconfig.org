@@ -22,3 +22,5 @@
 *** TODO make auctex open pdf's with pdftools right away (at the moment works only with SPC m v if already open)
 ** Windows: 
 *** pdf-tools alternative (sumatra: https://www.barik.net/archive/2012/07/18/154432/)
+*** org-mode: if #setupfile is used, then little symbols disappear and major mode (SPC-m) is not available anymore
+    -maybe have a look at: https://github.com/syl20bnr/spacemacs/issues/8106
