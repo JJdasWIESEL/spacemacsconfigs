@@ -329,8 +329,9 @@ values."
   ;;latex
   (setq latex-build-command "LatexMk")
   ;;python
+  (setenv "WORKON_HOME" "~/anaconda3/envs")
   (setq python-shell-interpreter "ipython")
-  (setenv "WORKON_HOME" "c:/Users/JumpStart/Anaconda3/envs")
+  ;; (setenv "WORKON_HOME" "c:/Users/JumpStart/Anaconda3/envs")
   ;; ----------------------------------------------------------------------
   ;; Testing at work python envs (set WORKON_HOME)
   ;; ----------------------------------------------------------------------
